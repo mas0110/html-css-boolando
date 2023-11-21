@@ -68,6 +68,9 @@ main{
     right: 0;
     padding: 5px;
 }
+.item3:hover{
+    color: red;
+}
 .cards{
     display: inline-block;
     margin: 5px;
@@ -75,6 +78,17 @@ main{
     font-size: x-small;
     text-transform: capitalize;
     text-align: left;
+    flex-basis: calc(100%/3-5px);
+}
+.photoB{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.photoB:hover{
+    opacity: 1;
+
 }
 .price{
     color: red;
