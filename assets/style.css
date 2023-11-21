@@ -3,40 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Roboto', sans-serif;
+}
 body{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+}
+.flex-container{
     display: flex;
-    
+    justify-content: space-evenly;
+}
+
+nav{
+    color: white;
+    background-color: #fc5108;
+    height: 40px;
+    padding: 15px;
+    font-size:small ;
+
 }
 
 nav img{
     width: 80px;
-    height:20px ;
-}
-nav{
-    background-color: orange;
-    color: white;
-    justify-content: space-between;
-    display: flex;
+    height: 20px;
     
-
-}
-main{
-    margin-top: 100px;
-}
-
-#conteiner{
-    }
-
-.item{
-    display: inline-block;
-    
-
-}
-
-.photo{
-    width: 200px;
-    height: 300px;
 }
