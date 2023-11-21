@@ -28,15 +28,18 @@ nav img{
     
 }
 main{
-    width: 60%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 
-
+}
+#container{
+    margin: 30px;
+    text-align: center;
 }
 
 .photo{
-    width: 200px;
-    height: 300px;
+   max-width: 250px;;
+   max-height: 400px;
 }
 
 .padre{
@@ -71,10 +74,25 @@ main{
     margin-top:20px ;
     font-size: x-small;
     text-transform: capitalize;
+    text-align: left;
 }
 .price{
     color: red;
 }
 .price-line{
     text-decoration:line-through;
+}
+footer{
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-size: x-small;
+    height: 60px;
+    align-items: center;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
 }
