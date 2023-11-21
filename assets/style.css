@@ -7,7 +7,7 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 body{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 .flex-container{
@@ -28,8 +28,8 @@ nav img{
     
 }
 main{
-  width: 80%;
-  margin: 0 auto;
+  /* width: 60%; */
+  /* margin: 0 auto; */
 
 }
 #container{
