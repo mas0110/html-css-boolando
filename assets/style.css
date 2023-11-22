@@ -3,12 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration:none ;
+    color: white;
+}
 html{
     font-family: 'Roboto', sans-serif;
 }
 body{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
+}
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
 }
 .flex-container{
     display: flex;
@@ -20,21 +31,23 @@ nav{
     background-color: #fc5108;
     height: 40px;
     padding: 15px;
-    font-size:small ;
+    font-size:small;
 }
 nav img{
     width: 80px;
     height: 20px;
     
 }
-main{
-  /* width: 60%; */
-  /* margin: 0 auto; */
-
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
 }
+
 #container{
-    margin: 30px;
-    text-align: center;
+    
+    display: flex;
+    flex-wrap:wrap;  
 }
 
 .photo{
@@ -42,10 +55,13 @@ main{
    max-height: 400px;
 }
 
-.padre{
+.pic-container{
     position: relative;
+    width: 250px;
+    height: 361px;
+    display: inline-block;
 }
-.figlio{
+.details{
     position: absolute; 
     bottom: 20px;
     left: 0;
@@ -67,6 +83,7 @@ main{
     top: 5px;
     right: 0;
     padding: 5px;
+    cursor: pointer;
 }
 .item3:hover{
     color: red;
@@ -77,8 +94,7 @@ main{
     margin-top:20px ;
     font-size: x-small;
     text-transform: capitalize;
-    text-align: left;
-    flex-basis: calc(100%/3-5px);
+    flex: basis calc(100% / 3);
 }
 .photoB{
     position: absolute;
